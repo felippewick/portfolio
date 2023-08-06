@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { getBlogViews, getTweetCount, getCommitCount } from 'lib/metrics';
+// import { getBlogViews, getTweetCount, getCommitCount } from 'lib/metrics';
 import {
   ArrowIcon,
   GitHubIcon,
@@ -13,13 +13,13 @@ export const revalidate = 60;
 export const metadata = {
   description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Lee Robinson',
+    title: 'Felippe Wick',
     description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    url: 'https://felippewick.io',
+    siteName: 'Felippe Wick',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: 'https://felippewick.io/og.jpg',
         width: 1920,
         height: 1080,
       },
@@ -30,11 +30,11 @@ export const metadata = {
 };
 
 export default async function HomePage() {
-  const [commitCount, views, tweetCount] = await Promise.all([
-    getCommitCount(),
-    getBlogViews(),
-    getTweetCount(),
-  ]);
+  // const [commitCount, views, tweetCount] = await Promise.all([
+  //   getCommitCount(),
+  //   getBlogViews(),
+  //   getTweetCount(),
+  // ]);
 
   return (
     <section className="">
@@ -45,13 +45,13 @@ export default async function HomePage() {
       <div className="flex items-start md:items-center my-8 flex-col md:flex-row">
         <Image
           alt={name}
-          className="rounded-full grayscale"
+          className="rounded-full w-32 h-32 object-cover"
           src={avatar}
           placeholder="blur"
           width={100}
           priority
         />
-        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
+        {/* <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
           <p className="flex items-center gap-2">
             <TwitterIcon />
             {`${tweetCount.toLocaleString()} tweets all time`}
@@ -64,7 +64,7 @@ export default async function HomePage() {
             <ViewsIcon />
             {`${views.toLocaleString()} blog views all time`}
           </p>
-        </div>
+        </div> */}
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
@@ -81,17 +81,17 @@ export default async function HomePage() {
             <p className="h-7">follow me on twitter</p>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://leerob.substack.com"
+            href="https://felippewick.substack.com"
           >
             <ArrowIcon />
             <p className="h-7">get email updates</p>
           </a>
-        </li>
+        </li> */}
       </ul>
     </section>
   );

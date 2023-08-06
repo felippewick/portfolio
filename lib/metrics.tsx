@@ -41,8 +41,8 @@ export const getCommitCount = cache(async () => {
   });
 
   const req = await octokit.request('GET /repos/{owner}/{repo}', {
-    owner: 'leerob',
-    repo: 'leerob.io',
+    owner: 'felippewick',
+    repo: 'felippewick.io',
   });
 
   return req.data.stargazers_count;

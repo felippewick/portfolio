@@ -4,23 +4,23 @@ export default async function Head({ params }) {
   const post = allBlogs.find((post) => post.slug === params.slug) || {
     title: 'Not Found',
     summary: 'This page could not be found.',
-    image: 'https://leerob.io/api/og?title=Not%20Found',
+    image: 'https://felippewick.io/api/og?title=Not%20Found',
     publishedAt: new Date().toISOString(),
   };
 
   const ogImage = post.image
     ? post.image
-    : `https://leerob.io/api/og?title=${post.title}`;
+    : `https://felippewick.io/api/og?title=${post.title}`;
 
   return (
     <>
-      <title>{`${post.title} – Lee Robinson`}</title>
+      <title>{`${post.title} – Felippe Wick`}</title>
       <meta content={post.summary} name="description" />
       <meta
         property="og:url"
-        content={`https://leerob.io/blog/${params.slug}`}
+        content={`https://felippewick.io/blog/${params.slug}`}
       />
-      <link rel="canonical" href={`https://leerob.io/blog/${params.slug}`} />
+      <link rel="canonical" href={`https://felippewick.io/blog/${params.slug}`} />
       <meta property="og:description" content={post.summary} />
       <meta property="og:title" content={post.title} />
       <meta property="og:image" content={ogImage} />

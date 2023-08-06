@@ -11,8 +11,8 @@ export async function generateMetadata({ params }) {
     image,
     slug,
   } = post;
-  const title = `${postTitle} - Lee Robinson`;
-  const ogImage = image ? image : `https://leerob.io/api/og?title=${title}`;
+  const title = `${postTitle} - Felippe Wick`;
+  const ogImage = image ? image : `https://felippewick.io/api/og?title=${title}`;
 
   return {
     title,
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }) {
       description,
       type: 'article',
       publishedTime,
-      url: `https://leerob.io/blog/${slug}`,
+      url: `https://felippewick.io/blog/${slug}`,
       images: [
         {
           url: ogImage,

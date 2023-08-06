@@ -1,14 +1,14 @@
 export default {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Felippe Wick',
+    template: '%s | Felippe Wick',
   },
   robots: {
     index: true,
     follow: true,
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Felippe Wick',
     card: 'summary_large_image',
   },
   icons: {

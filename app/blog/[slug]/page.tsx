@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation';
 import { Mdx } from 'components/mdx';
 import { allBlogs } from 'contentlayer/generated';
-import { getTweets } from 'lib/twitter';
+// import { getTweets } from 'lib/twitter';
 import Balancer from 'react-wrap-balancer';
-import ViewCounter from '../view-counter';
+// import ViewCounter from '../view-counter';
 
 export async function generateStaticParams() {
   return allBlogs.map((post) => ({
@@ -18,7 +18,7 @@ export default async function Blog({ params }) {
     notFound();
   }
 
-  const tweets = await getTweets(post.tweetIds);
+  // const tweets = await getTweets(post.tweetIds);
 
   return (
     <section>
@@ -30,9 +30,9 @@ export default async function Blog({ params }) {
           {post.publishedAt}
         </div>
         <div className="h-[0.2em] bg-neutral-50 dark:bg-neutral-800 mx-2" />
-        <ViewCounter slug={post.slug} trackView />
+        {/* <ViewCounter slug={post.slug} trackView /> */}
       </div>
-      <Mdx code={post.body.code} tweets={tweets} />
+      <Mdx code={post.body.code}  />
     </section>
   );
 }

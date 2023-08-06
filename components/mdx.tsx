@@ -99,12 +99,16 @@ const components = {
 
 interface MdxProps {
   code: string;
-  tweets: Record<string, any>;
+  tweets?: Record<string, any>;
 }
+
+// TODO: allow marking text pieces with likes and other reactions!
+// TODO: allow conversations based on text pieces
 
 export function Mdx({ code, tweets }: MdxProps) {
   const Component = useMDXComponent(code);
   const StaticTweet = ({ id }) => {
+    return <></>
     const tweet = tweets.find((tweet) => tweet.id === id);
     return <Tweet {...tweet} />;
   };

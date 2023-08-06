@@ -18,6 +18,12 @@ module.exports = {
           },
         },
       },
+      backgroundColor: {
+        'dark-1': '#111010',
+      },
+      color: {
+        'dark-1': '#111010',
+      },
     },
   },
   future: {
