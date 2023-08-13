@@ -10,10 +10,15 @@ export const metadata = {
   description: 'VP of Developer Experience at Vercel.',
 };
 
+// TODO: photo gallery
+// TODO: bento
+// TODO: work 
+
 export default function AboutPage() {
   return (
     <section>
-      <h1 className="font-bold text-3xl font-serif">About Me</h1>
+      <h1 className="font-bold text-2xl font-grotesk">About Me</h1>
+      <p className='text-sm'>(wip)</p>
       <p className="my-5 text-neutral-800 dark:text-neutral-200">
         Hey, I'm Felippe. I'm a software engineer and entrepreneur.
       </p>

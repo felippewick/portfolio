@@ -3,21 +3,20 @@
 import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'hey',
     x: 0,
     y: 0,
     w: '64px',
   },
-  '/about': {
-    name: 'about',
-    x: 64,
-    y: 35,
-    w: '65px',
-  },
+  // '/wall': {
+  //   name: 'wall',
+  //   x: 64,
+  //   y: 35,
+  //   w: '65px',
+  // },
   '/blog': {
     name: 'blog',
     x: 127,
@@ -36,7 +35,7 @@ const navItems = {
 
 export default function Navbar() {
   let pathname = usePathname();
-  if (pathname.includes('/blog/')) {
+  if (pathname?.includes('/blog/')) {
     pathname = '/blog';
   }
 
@@ -57,10 +56,10 @@ export default function Navbar() {
                 key={path}
                 href={path}
                 className={clsx(
-                  'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-[2px] px-[10px]',
+                  'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 px-[10px]',
                   {
                     'text-neutral-500': !isActive,
-                    'font-bold': isActive,
+                    'font-semibold': isActive,
                   }
                 )}
               >

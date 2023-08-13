@@ -5,13 +5,11 @@ import Sidebar from '../components/sidebar';
 import AnalyticsWrapper from '../components/analytics';
 import globalMetadata from './metadata';
 import Navbar from 'components/navbar';
-
-const kaisei = localFont({
-  src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
-  weight: '700',
-  variable: '--font-kaisei',
-  display: 'swap',
-});
+import {
+  kaisei,
+  syne,
+  grotesk
+} from '@/lib/fonts';
 
 export const metadata = globalMetadata;
 
@@ -25,7 +23,8 @@ export default function RootLayout({
       lang="en"
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
-        kaisei.variable
+        kaisei.variable,
+        grotesk.variable
       )}
     >
       <body className="antialiased max-w-2xl mb-40 flex flex-col mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">

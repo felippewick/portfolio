@@ -9,6 +9,16 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ['var(--font-kaisei)'],
+        inter: ['var(--font-inter)'],
+        oswald: ['var(--font-oswald)'],
+        roboto: ['var(--font-roboto)'],
+        syne: ['var(--font-syne)'],
+        poppins: ['var(--font-font-poppins)'],
+        mono: ['var(--font-roboto-mono)'],
+        work: ['var(--font-work-sans)'],
+        fira: ['var(--font-fira-sans)'],
+        krona: ['var(--font-krona-one)'],
+        grotesk: ['var(--font-grotesk)'],
       },
       typography: {
         quoteless: {
