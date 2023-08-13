@@ -4,7 +4,6 @@ import {
   ArrowIcon,
 } from 'components/icons';
 import { cn } from '@/lib/utils';
-import me from '../public/images/avatar.jpg';
 
 export const revalidate = 60;
 
@@ -66,8 +65,8 @@ export default async function HomePage() {
         <Image
           alt={'Felippe Wick'}
           className="rounded-full w-32 h-32 object-cover"
-          src={me}
-          placeholder="blur"
+          src={'/images/avatar.jpg'}
+          // placeholder="blur"
           width={500}
           height={500}
           priority
@@ -89,9 +88,8 @@ export default async function HomePage() {
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         My passion for programming got started during my stints in Berlin-based
-        startups in both Product and Solutions Engineering. I'm
-        now focussing on becoming a full-fledged Product Engineer with a strong
-        sense for Design.
+        startups in both Product and Solutions Engineering. I'm now focussing on
+        becoming a full-fledged Product Engineer with a strong sense for Design.
         <br></br>
         <br></br>
         This page is my personal playground for programming, design and writing.
