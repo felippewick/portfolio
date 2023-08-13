@@ -12,11 +12,11 @@ export const metadata = {
   openGraph: {
     title: 'Felippe Wick',
     description: 'Developer, writer, and creator.',
-    url: 'https://felippewick.io',
+    url: 'https://felippewick.com',
     siteName: 'Felippe Wick',
     images: [
       {
-        url: 'https://felippewick.io/og.jpg',
+        url: 'https://felippewick.com/og.jpg',
         width: 1920,
         height: 1080,
       },
@@ -89,7 +89,7 @@ export default async function HomePage() {
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         My passion for programming got started during my stints in Berlin-based
         startups in both Product and Solutions Engineering. I'm now focussing on
-        becoming a full-fledged Product Engineer with a strong sense for Design.
+        becoming a full-fledged Product Engineer with a strong sense for Design turning ideas into businesses.
         <br></br>
         <br></br>
         This page is my personal playground for programming, design and writing.

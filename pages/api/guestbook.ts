@@ -6,35 +6,36 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const session = await getSession({ req });
-  const { email, name } = session.user;
+  // const session = await getSession({ req });
+  // // @ts-ignore
+  // const { email, name } = session.user;
 
-  if (!session) {
-    return res.status(403).send('Unauthorized');
-  }
+  // if (!session) {
+  //   return res.status(403).send('Unauthorized');
+  // }
 
-  if (req.method === 'POST') {
-    await queryBuilder
-      .insertInto('guestbook')
-      .values({
-        email,
-        body: (req.body.body || '').slice(0, 500),
-        created_by: name,
-      })
-      .execute();
+  // if (req.method === 'POST') {
+  //   await queryBuilder
+  //     .insertInto('guestbook')
+  //     .values({
+  //       email,
+  //       body: (req.body.body || '').slice(0, 500),
+  //       created_by: name,
+  //     })
+  //     .execute();
 
-    return res.status(200).json({ error: null });
-  }
+  //   return res.status(200).json({ error: null });
+  // }
 
-  if (req.method === 'DELETE') {
-    await queryBuilder
-      .deleteFrom('guestbook')
-      .where('id', '=', req.body.id)
-      .where('email', '=', email)
-      .execute();
+  // if (req.method === 'DELETE') {
+  //   await queryBuilder
+  //     .deleteFrom('guestbook')
+  //     .where('id', '=', req.body.id)
+  //     .where('email', '=', email)
+  //     .execute();
 
-    return res.status(204).json({});
-  }
+  //   return res.status(204).json({});
+  // }
 
   return res.send('Method not allowed.');
 }

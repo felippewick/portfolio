@@ -1,13 +1,10 @@
 import './global.css';
 import clsx from 'clsx';
-import localFont from '@next/font/local';
-import Sidebar from '../components/sidebar';
 import AnalyticsWrapper from '../components/analytics';
 import globalMetadata from './metadata';
 import Navbar from 'components/navbar';
 import {
   kaisei,
-  syne,
   grotesk
 } from '@/lib/fonts';
 

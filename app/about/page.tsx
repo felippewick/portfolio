@@ -7,7 +7,7 @@ import LinkedinIcon, {
 
 export const metadata = {
   title: 'About',
-  description: 'VP of Developer Experience at Vercel.',
+  description: 'Co-founder of cliqe',
 };
 
 // TODO: photo gallery

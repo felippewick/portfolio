@@ -109,8 +109,8 @@ export function Mdx({ code, tweets }: MdxProps) {
   const Component = useMDXComponent(code);
   const StaticTweet = ({ id }) => {
     return <></>
-    const tweet = tweets.find((tweet) => tweet.id === id);
-    return <Tweet {...tweet} />;
+    // const tweet = tweets.find((tweet) => tweet.id === id);
+    // return <Tweet {...tweet} />;
   };
 
   return (

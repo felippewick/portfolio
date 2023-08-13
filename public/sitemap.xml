@@ -5,223 +5,223 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://felippewick.io/</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/about</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/about</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/guestbook</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/guestbook</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/funding-open-source</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/funding-open-source</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/backend</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/backend</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/react-frameworks</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/react-frameworks</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/javascript</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/javascript</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/nextjs-conf-2022-recap</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/nextjs-conf-2022-recap</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/dx</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/dx</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/developer-experience-examples</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/developer-experience-examples</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/heroku</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/heroku</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/devrel-at-vercel</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/devrel-at-vercel</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/image-gallery-supabase-tailwind-nextjs</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/image-gallery-supabase-tailwind-nextjs</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/fundamentals-of-video</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/fundamentals-of-video</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/hypergrowth</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/hypergrowth</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/rust</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/rust</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/mysql-planetscale</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/mysql-planetscale</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/career</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/career</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/head-of-devrel</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/head-of-devrel</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/serverless-redis-nextjs</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/serverless-redis-nextjs</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/react-state-management</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/react-state-management</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/fonts</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/fonts</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/tailwind</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/tailwind</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/css-with-react</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/css-with-react</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/spotify-api-nextjs</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/spotify-api-nextjs</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/teach-online</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/teach-online</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/mdx</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/mdx</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/nextjs-sitemap-robots</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/nextjs-sitemap-robots</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/mailchimp-next-js</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/mailchimp-next-js</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/real-time-post-views</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/real-time-post-views</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/style-guides-component-libraries-design-systems</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/style-guides-component-libraries-design-systems</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/nextjs-firebase-serverless</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/nextjs-firebase-serverless</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/how-to-print-in-react-using-iframes</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/how-to-print-in-react-using-iframes</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/turborepo-design-system-monorepo</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/turborepo-design-system-monorepo</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/technical-recruiting-is-broken</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/technical-recruiting-is-broken</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/things-ive-learned-building-nextjs-apps</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/things-ive-learned-building-nextjs-apps</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/why-i-create-open-source-software</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/why-i-create-open-source-software</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/content-marketing-personal-brand</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/content-marketing-personal-brand</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/how-stripe-designs-beautiful-websites</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/how-stripe-designs-beautiful-websites</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/loading-placeholder-with-sass</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/loading-placeholder-with-sass</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/beginners-guide-to-the-programming-portfolio</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/beginners-guide-to-the-programming-portfolio</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/blog/space-invaders-with-python</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/blog/space-invaders-with-python</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://felippewick.io/uses</loc>
-  <lastmod>2023-01-30T23:59:14+00:00</lastmod>
+  <loc>https://felippewick.com/uses</loc>
+  <lastmod>2023-08-13T23:59:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

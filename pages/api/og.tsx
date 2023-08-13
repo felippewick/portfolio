@@ -9,6 +9,7 @@ const font = fetch(
   new URL('../../public/fonts/kaisei-tokumin-bold.ttf', import.meta.url)
 ).then((res) => res.arrayBuffer());
 
+// TODO: add og-bg and og image
 export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl;
   const postTitle = searchParams.get('title');
@@ -24,7 +25,7 @@ export default async function handler(req: NextRequest) {
           flexDirection: 'column',
           alignItems: 'flex-start',
           justifyContent: 'center',
-          backgroundImage: 'url(https://felippewick.io/og-bg.png)',
+          backgroundImage: 'url(https://felippewick.com/og-bg.png)',
         }}
       >
         <div

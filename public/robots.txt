@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://felippewick.io/sitemap.xml
+Sitemap: https://felippewick.com/sitemap.xml
