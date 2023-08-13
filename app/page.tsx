@@ -8,10 +8,10 @@ import { cn } from '@/lib/utils';
 export const revalidate = 60;
 
 export const metadata = {
-  description: 'Developer, writer, and creator.',
+  description: 'Tinkering, building, exploring.',
   openGraph: {
     title: 'Felippe Wick',
-    description: 'Developer, writer, and creator.',
+    description: 'Tinkering, building, exploring.',
     url: 'https://felippewick.com',
     siteName: 'Felippe Wick',
     images: [
