@@ -29,7 +29,7 @@ export default async function BlogPage() {
           >
             <div className="w-full flex flex-col">
               <p>{post.title}</p>
-              <p className="uppercase font-extralight text-neutral-300 text-xs">
+              <p className="uppercase font-light text-neutral-500 text-xs">
                 {post.publishedAt}
               </p>
               {/* <ViewCounter slug={post.slug} trackView={false} /> */}
