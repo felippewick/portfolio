@@ -11,6 +11,23 @@ import {
 } from 'next/font/google';
 import localFont from 'next/font/local';
 
+export const bricolage = localFont({
+  src: [
+    {
+      path: '../../public/fonts/BricolageGrotesque.ttf',
+    },
+  ],
+  variable: '--font-bricolage',
+});
+export const bricolageSemi = localFont({
+  src: [
+    {
+      path: '../../public/fonts/BricolageGrotesque_SemiCondensed-Regular.ttf',
+    },
+  ],
+  variable: '--font-bricolage-semi',
+});
+
 export const poppins = Poppins({
   weight: ['400', '700'],
   subsets: ['latin'],
