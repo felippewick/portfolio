@@ -1,14 +1,14 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
-import balticSea from 'public/images/baltic-sea.jpg';
-import dirty30 from 'public/images/dirty-30.jpg';
-import engagement2 from 'public/images/engagement-2.jpg';
-import florence from 'public/images/florence.jpg';
-import silvester from 'public/images/silvester.jpg';
-import summer from 'public/images/summer.jpg';
-import ski from 'public/images/ski.jpg';
-import surf from 'public/images/surf.jpg';
+import balticSea from '../../public/images/baltic-sea.jpg';
+import dirty30 from '../../public/images/dirty-30.jpg';
+import engagement2 from '../../public/images/engagement-2.jpg';
+import florence from '../../public/images/florence.jpg';
+import silvester from '../../public/images/silvester.jpg';
+import summer from '../../public/images/summer.jpg';
+import ski from '../../public/images/ski.jpg';
+import surf from '../../public/images/surf.jpg';
 import { cn } from '@/lib/utils';
 // flipping: https://etzold.co/blog/2021/10/22/flip-images-with-tailwindcss
 import ConfettiExplosion from 'react-confetti-explosion';
@@ -248,9 +248,9 @@ function Pin() {
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      stroke-width="1"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="1"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
       <circle cx="12" cy="10" r="3" />
