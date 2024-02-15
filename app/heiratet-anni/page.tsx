@@ -38,8 +38,8 @@ const P = ({ children }) => (
 );
 
 export default function GettingMarriedPage() {
-  const [flipped, setFlipped] = useState([]);
-  const [guessedRight, setGuessedRight] = useState([]);
+  const [flipped, setFlipped] = useState<any[]>([]);
+  const [guessedRight, setGuessedRight] = useState<any[]>([]);
   const [memoryVisible, setMemoryVisible] = useState(false);
   const [isBlurred, setIsBlurred] = useState(true);
   useEffect(() => {

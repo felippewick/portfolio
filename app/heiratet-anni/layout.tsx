@@ -1,4 +1,34 @@
 import { cn } from '@/lib/utils';
+
+export const metadata = {
+  description: 'Tinkering, building, exploring.',
+  openGraph: {
+    title: 'Anni &#x2665; Felippe',
+    description: 'Invite to our special day',
+    url: 'https://felippewick.com/heiratet-anni',
+    siteName: 'Felippe Wick',
+    images: [
+      {
+        url: 'https://felippewick.com/engagement-2.jpg',
+        width: 1920,
+        height: 1080,
+      },
+    ],
+    // openGraph: {
+    //   images: [
+    //     `/api/og?title=${recipe.name}&image_url=${recipe.thumbnail_url}&avatar_url=${recipe.creators.avatar_url}`,
+    //     ...previousImages,
+    //   ],
+    //   description: recipe.description,
+    //   type: 'article',
+    //   publishedTime: recipe.inserted_at,
+    //   authors: [recipe.creators.username],
+    // },
+    locale: 'en-US',
+    type: 'website',
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
