@@ -10,12 +10,12 @@ export const metadata = {
     siteName: "Anni & Felippe Wick",
     images: [
       {
-        url: `https://felippewick.com/images/engagement-2.jpg`, // Must be an absolute URL
+        url: `https://www.felippewick.com/images/og-eng.jpg`, // Must be
         width: 800,
         height: 600,
       },
       {
-        url: `https://felippewick.com/images/engagement-2.JPG`, // Must be
+        url: `https://www.felippewick.com/images/og-eng.jpg`, // Must be
         width: 1800,
         height: 1600,
         alt: "Anni & Felippe",
