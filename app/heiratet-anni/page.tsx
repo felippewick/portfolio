@@ -97,7 +97,7 @@ export default function GettingMarriedPage() {
         <div className="relative w-full sm:h-[600px] h-[500px] overflow-hidden rounded-md">
           <Image
             alt=""
-            src="/images/engagement-2.jpg"
+            src="/images/engagement-2.JPG"
             fill
             sizes="100vw"
             priority
@@ -266,33 +266,43 @@ function Memory({
     <>
       {isCompleted && <ConfettiExplosion />}
       <div className="grid grid-cols-4 gap-2 sm:gap-3 w-full">
-        {/* <button onClick={() => setIsExploding((p) => !p)}>click</button> */}
         {duplicatedAndShuffledCards.map((item, index) => (
-          <button
-            key={`key-${Math.random()}`}
-            className={cn(
-              "relative aspect-square col-span-1 rounded-md bg-orange-200 opacity-0",
-              memoryVisible && "opacity-100 animate transform-all",
-              `duration-[${100 * index}]`
-            )}
-            onClick={() => handleFlip(item, index)}
-          >
-            {(flipped?.filter((f) => f?.index === index)?.length > 0 ||
-              guessedRight?.filter((f) => f?.name === item.name)?.length >
-                0) && (
-              <Image
-                alt=""
-                src={`/images/${item.name}`}
-                fill
-                sizes="25vw"
-                priority
-                className="object-cover animate rounded-md duration-300 transform -scale-x-100"
-              />
-            )}
-          </button>
+          <Card {...{index, memoryVisible, flipped, guessedRight, item, handleFlip}} />
         ))}
       </div>
     </>
+  );
+}
+
+function Card({index, memoryVisible, flipped, guessedRight, item, handleFlip}){
+  const isVisible = (flipped?.filter((f) => f?.index === index)?.length > 0 ||
+              guessedRight?.filter((f) => f?.name === item.name)?.length >
+                0) 
+  return (
+    <button
+      key={`key-${Math.random()}`}
+      className={cn(
+        "relative aspect-square col-span-1 rounded-md bg-orange-200 opacity-0",
+        memoryVisible && "opacity-100 animate transform-all",
+        `duration-[${100 * index}]`
+      )}
+      onClick={() => handleFlip(item, index)}
+    >
+      <Image
+        alt=""
+        src={`/images/${item.name}`}
+        fill
+        sizes="25vw"
+        loading="eager"
+        priority={true}
+        className={cn(
+          "object-cover animate rounded-md duration-300 transform -scale-x-100",
+          {
+            invisible: !isVisible,
+          }
+        )}
+      />
+    </button>
   );
 }
 
