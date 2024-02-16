@@ -7,24 +7,24 @@ import { cn } from '@/lib/utils';
 
 export const revalidate = 60;
 
-export const metadata = {
-  description: 'Tinkering, building, exploring.',
-  openGraph: {
-    title: 'Felippe Wick',
-    description: 'Tinkering, building, exploring.',
-    url: 'https://felippewick.com',
-    siteName: 'Felippe Wick',
-    images: [
-      {
-        url: 'https://felippewick.com/og.jpg',
-        width: 1920,
-        height: 1080,
-      },
-    ],
-    locale: 'en-US',
-    type: 'website',
-  },
-}
+// export const metadata = {
+//   description: 'Tinkering, building, exploring.',
+//   openGraph: {
+//     title: 'Felippe Wick',
+//     description: 'Tinkering, building, exploring.',
+//     url: 'https://felippewick.com',
+//     siteName: 'Felippe Wick',
+//     images: [
+//       {
+//         url: 'https://felippewick.com/og.jpg',
+//         width: 1920,
+//         height: 1080,
+//       },
+//     ],
+//     locale: 'en-US',
+//     type: 'website',
+//   },
+// }
 
 
 export default async function HomePage() {

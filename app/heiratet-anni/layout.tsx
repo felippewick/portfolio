@@ -4,7 +4,7 @@ export const metadata = {
   metadataBase: new URL("https://felippewick.com"),
   description: "Tinkering, building, exploring.",
   openGraph: {
-    title: "Anni &#x2665; Felippe",
+    title: "Anni & Felippe",
     description: "Einladung zu unserer Hochzeit",
     url: "https://felippewick.com/heiratet-anni",
     siteName: "Anni & Felippe Wick",
@@ -15,7 +15,7 @@ export const metadata = {
         height: 600,
       },
       {
-        url: `${process.env.VERCEL_URL}/images/engagement-2.JPG`, // Must be
+        url: `${process.env.VERCEL_URL}/images/engagement-2.jpg`, // Must be
         width: 1800,
         height: 1600,
         alt: "Anni & Felippe",

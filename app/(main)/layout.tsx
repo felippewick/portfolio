@@ -1,6 +1,6 @@
 import '../global.css';
 import AnalyticsWrapper from '../../components/analytics';
-import globalMetadata from '../metadata';
+import globalMetadata from './metadata';
 import Navbar from 'components/navbar';
 import { cn } from '@/lib/utils';
 
