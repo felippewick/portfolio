@@ -15,7 +15,7 @@ const H1 = ({ children }) => (
 
 const H2 = ({ children }) => (
   <div className="pt-8 pb-3 flex-col justify-start items-start flex">
-    <div className="text-orange-700 text-lg font-bold font-['Inter'] leading-normal">
+    <div className="text-orange-700 text-lg font-bold leading-normal">
       {children}
     </div>
   </div>
@@ -23,7 +23,7 @@ const H2 = ({ children }) => (
 
 const P = ({ children }) => (
   <div className="self-stretch h-20 pt-6 flex-col justify-start items-start flex">
-    <div className="self-stretch text-center text-orange-600 text-xl font-normal font-['Inter'] leading-7">
+    <div className="self-stretch text-center text-orange-600 text-xl font-normal leading-7">
       {children}
     </div>
   </div>
@@ -84,7 +84,7 @@ export default function GettingMarriedPage() {
         <div className="pb-8 flex-col justify-start items-center gap-4 flex">
           <HeartIcon />
           <div className="flex-col justify-start items-center flex">
-            <div className="text-orange-600 text-[40px] font-extrabold font-bricolage font-['Bricolage Grotesque'] leading-9">
+            <div className="text-orange-600 text-[40px] font-extrabold font-bricolage leading-9">
               Anni & Felippe
             </div>
           </div>
@@ -99,7 +99,8 @@ export default function GettingMarriedPage() {
             alt=""
             src="/images/engagement-2.JPG"
             fill
-            sizes="100vw"
+            loading="eager"
+            sizes="(max-width: 2000px) 100vw"
             priority
             className={cn(
               "animate transform rounded-md object-cover grayscale blur-none duration-1000",
@@ -198,11 +199,11 @@ function Time({
 }) {
   return (
     <div className="self-stretch py-5 flex-col justify-center items-center gap-1.5 flex ">
-      <div className="text-orange-700 text-base font-semibold font-['Inter'] leading-normal">
+      <div className="text-orange-700 text-base font-semibold leading-normal">
         {time}
       </div>
       <div className="self-stretch pb-[1px] justify-center items-center inline-flex">
-        <div className="grow shrink basis-0 text-center text-orange-600 text-xl font-normal font-['Inter'] leading-7">
+        <div className="grow shrink basis-0 text-center text-orange-600 text-xl font-normal leading-7">
           {content}
         </div>
       </div>
@@ -292,7 +293,7 @@ function Card({index, memoryVisible, flipped, guessedRight, item, handleFlip}){
         alt=""
         src={`/images/${item.name}`}
         fill
-        sizes="25vw"
+        sizes="(max-width: 2000px) 25vw"
         loading="eager"
         priority={true}
         className={cn(
