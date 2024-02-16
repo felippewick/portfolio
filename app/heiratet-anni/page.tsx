@@ -95,7 +95,7 @@ export default function GettingMarriedPage() {
         <div className="relative w-full sm:h-[600px] h-[500px] overflow-hidden rounded-md">
           <Image
             alt=""
-            src={"/images/engagement-2.jpg"}
+            src="/images/engagement-2.jpg"
             fill
             sizes="100vw"
             priority

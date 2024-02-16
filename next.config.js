@@ -4,19 +4,19 @@ const { withContentlayer } = require('next-contentlayer');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    formats: ['image/avif', 'image/webp'],
+    // formats: ["image/avif", "image/webp", "image/jpg"],
     // Twitter Profile Picture
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'pbs.twimg.com',
-        pathname: '/**',
+        protocol: "https",
+        hostname: "pbs.twimg.com",
+        pathname: "/**",
       },
     ],
   },
   redirects() {
     try {
-      return get('redirects');
+      return get("redirects");
     } catch {
       return [];
     }
@@ -24,7 +24,7 @@ const nextConfig = {
   headers() {
     return [
       {
-        source: '/(.*)',
+        source: "/(.*)",
         headers: securityHeaders,
       },
     ];
