@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-
+// https://www.franciscomoretti.com/blog/setting-up-static-og-image-nextjs-app-router
 export const metadata = {
   metadataBase: new URL("https://felippewick.com"),
   description: "Tinkering, building, exploring.",
@@ -9,6 +9,11 @@ export const metadata = {
     url: "https://felippewick.com/heiratet-anni",
     siteName: "Anni & Felippe Wick",
     images: [
+      {
+        url: `https://www.felippewick.com/images/og-eng.jpg`, // Must be
+        width: 250,
+        height: 250,
+      },
       {
         url: `https://www.felippewick.com/images/og-eng.jpg`, // Must be
         width: 800,
