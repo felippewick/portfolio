@@ -10,12 +10,12 @@ export const metadata = {
     siteName: "Anni & Felippe Wick",
     images: [
       {
-        url: `${process.env.VERCEL_URL}/images/engagement-2.JPG`, // Must be an absolute URL
+        url: `https://felippewick.com/images/engagement-2.jpg`, // Must be an absolute URL
         width: 800,
         height: 600,
       },
       {
-        url: `${process.env.VERCEL_URL}/images/engagement-2.jpg`, // Must be
+        url: `https://felippewick.com/images/engagement-2.JPG`, // Must be
         width: 1800,
         height: 1600,
         alt: "Anni & Felippe",
