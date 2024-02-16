@@ -50,6 +50,8 @@ export default function GettingMarriedPage() {
     {  name: 'dirty-30.jpg' },
   ];
 
+  // test change to update images
+
   const duplicatedAndShuffledCards = useMemo(
     () => [...cards, ...cards].sort(() => Math.random() - 0.5),
     []
