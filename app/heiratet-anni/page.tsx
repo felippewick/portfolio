@@ -40,14 +40,14 @@ export default function GettingMarriedPage() {
   }, []);
 
   const cards = [
-    {  name: 'baltic-sea.jpg' },
-    {  name: 'florence.jpg' },
-    {  name: 'summer.jpg' },
-    {  name: 'silvester.jpg' },
-    {  name: 'ski.jpg' },
-    {  name: 'engagement-2.jpg' },
-    {  name: 'surf.jpg' },
-    {  name: 'dirty-30.jpg' },
+    { name: "baltic-sea.JPG" },
+    { name: "dirty-30.JPG" },
+    { name: "engagement-2.JPG" },
+    { name: "florence.jpg" },
+    { name: "summer.JPG" },
+    { name: "silvester.JPG" },
+    { name: "ski.JPG" },
+    { name: "surf.jpg" },
   ];
 
   // test change to update images
@@ -102,8 +102,8 @@ export default function GettingMarriedPage() {
             sizes="100vw"
             priority
             className={cn(
-              'animate transform rounded-md object-cover grayscale blur-none duration-1000',
-              { 'blur-sm scale-95': isBlurred }
+              "animate transform rounded-md object-cover grayscale blur-none duration-1000",
+              { "blur-sm scale-95": isBlurred }
             )}
           />
         </div>
@@ -127,33 +127,33 @@ export default function GettingMarriedPage() {
             <H2>Engster Familienkreis</H2>
             <Time
               {...{
-                time: '11:30 Uhr',
-                content: 'Ankunft Standesamt Charlottenburg-Wilmersdorf',
-                address: 'Alt-Lietzow 28, 10587 Berlin',
-                href: 'https://maps.app.goo.gl/SjGn4crFXux4YonC7',
+                time: "11:30 Uhr",
+                content: "Ankunft Standesamt Charlottenburg-Wilmersdorf",
+                address: "Alt-Lietzow 28, 10587 Berlin",
+                href: "https://maps.app.goo.gl/SjGn4crFXux4YonC7",
               }}
             />
             <Time
               {...{
-                time: '12:00 Uhr',
-                content: 'Trauung',
+                time: "12:00 Uhr",
+                content: "Trauung",
               }}
             />
 
             <H2> Familie und Freunde</H2>
             <Time
               {...{
-                time: '12:20 Uhr',
-                content: 'Gemeinsames Anstoßen und Fotos vor dem Standesamt',
+                time: "12:20 Uhr",
+                content: "Gemeinsames Anstoßen und Fotos vor dem Standesamt",
               }}
             />
             <Time
               {...{
-                time: '14:00 Uhr',
+                time: "14:00 Uhr",
                 content:
-                  'Mittagessen und Hochzeitstorte in der Trattoria Gusto',
-                address: 'Bregenzer Str. 1, 10707 Berlin',
-                href: 'https://maps.app.goo.gl/aqZ9hHa42M5q6CKu6',
+                  "Mittagessen und Hochzeitstorte in der Trattoria Gusto",
+                address: "Bregenzer Str. 1, 10707 Berlin",
+                href: "https://maps.app.goo.gl/aqZ9hHa42M5q6CKu6",
               }}
             />
           </div>
