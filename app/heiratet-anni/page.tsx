@@ -1,14 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
-import balticSea from '../../public/images/baltic-sea.jpg';
-import dirty30 from '../../public/images/dirty-30.jpg';
-import engagement2 from '../../public/images/engagement-2.jpg';
-import florence from '../../public/images/florence.jpg';
-import silvester from '../../public/images/silvester.jpg';
-import summer from '../../public/images/summer.jpg';
-import ski from '../../public/images/ski.jpg';
-import surf from '../../public/images/surf.jpg';
 import { cn } from '@/lib/utils';
 // flipping: https://etzold.co/blog/2021/10/22/flip-images-with-tailwindcss
 import ConfettiExplosion from 'react-confetti-explosion';
@@ -48,14 +40,14 @@ export default function GettingMarriedPage() {
   }, []);
 
   const cards = [
-    { img: balticSea, name: 'baltic' },
-    { img: florence, name: 'florence' },
-    { img: summer, name: 'summer' },
-    { img: silvester, name: 'silvester' },
-    { img: ski, name: 'ski' },
-    { img: engagement2, name: 'engagement2' },
-    { img: surf, name: 'surf' },
-    { img: dirty30, name: 'dirty' },
+    {  name: 'baltic-sea.jpg' },
+    {  name: 'florence.jpg' },
+    {  name: 'summer.jpg' },
+    {  name: 'silvester.jpg' },
+    {  name: 'ski.jpg' },
+    {  name: 'engagement-2.jpg' },
+    {  name: 'surf.jpg' },
+    {  name: 'dirty-30.jpg' },
   ];
 
   const duplicatedAndShuffledCards = useMemo(
@@ -103,7 +95,7 @@ export default function GettingMarriedPage() {
         <div className="relative w-full sm:h-[600px] h-[500px] overflow-hidden rounded-md">
           <Image
             alt=""
-            src={engagement2}
+            src={"/images/engagement-2.jpg"}
             fill
             sizes="100vw"
             priority
@@ -277,8 +269,8 @@ function Memory({
           <button
             key={`key-${Math.random()}`}
             className={cn(
-              'relative aspect-square col-span-1 rounded-md bg-orange-200 opacity-0',
-              memoryVisible && 'opacity-100 animate transform-all',
+              "relative aspect-square col-span-1 rounded-md bg-orange-200 opacity-0",
+              memoryVisible && "opacity-100 animate transform-all",
               `duration-[${100 * index}]`
             )}
             onClick={() => handleFlip(item, index)}
@@ -288,7 +280,7 @@ function Memory({
                 0) && (
               <Image
                 alt=""
-                src={item.img}
+                src={`/images/${item.name}`}
                 fill
                 sizes="25vw"
                 priority
@@ -333,8 +325,8 @@ function HeartIcon() {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M11.151 21.161C9.65719 21.1837 7.23913 17.0173 6.4161 15.8667C5.21622 14.1891 5.22517 14.1934 3.98921 12.5334C3.0741 11.3044 2.00009 10.0359 1.35924 8.6419C1.18232 8.25701 0.836875 7.25197 0.750212 7.00426C0.265999 5.6203 -0.295927 4.00157 0.18125 2.53872C0.503825 1.54989 1.74714 1.3578 2.67045 1.37082C4.88981 1.40217 6.77874 2.77458 8.02815 4.46237C8.71255 5.38686 9.15438 6.41961 9.66389 7.43938C9.80215 7.71609 9.9489 7.98872 10.0906 8.26377C10.1544 8.38751 10.213 8.51375 10.2803 8.63571C10.3239 8.71482 10.3656 8.79604 10.4228 8.86658C10.4462 8.89543 10.4948 8.95739 10.5174 8.9279C10.6191 8.79465 10.6635 8.62793 10.7235 8.47285C10.9479 7.89239 11.1827 7.03802 11.3708 6.50046C11.5203 6.07316 11.8086 5.42413 12.0365 5.03682C12.3362 4.52777 12.6395 4.01928 12.983 3.53678C13.3268 3.05374 13.7112 2.59842 14.0953 2.14458C14.2766 1.93029 14.4766 1.7311 14.6777 1.53399C15.5505 0.678634 16.8395 -0.302388 18.1746 0.088435C19.7253 0.542356 20.051 2.45622 19.9939 3.79819C19.9744 4.25725 19.9458 4.71702 19.8815 5.17227C19.2691 9.50451 16.9642 13.4014 14.5475 17.0117C14.2098 17.5161 12.0887 21.1465 11.151 21.161Z"
         fill="#EA580C"
       />
