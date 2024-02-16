@@ -7,7 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      scale: {
+        '-100': '-1',
+      },
       fontFamily: {
+        'bricolage-semi': ['var(--font-bricolage-semi)'],
+        bricolage: ['var(--font-bricolage)'],
         serif: ['var(--font-kaisei)'],
         inter: ['var(--font-inter)'],
         oswald: ['var(--font-oswald)'],
